@@ -85,5 +85,6 @@ Note: You can Explore all the NaCl files for salesforce over here.
 7. Choose a NaCl file you want to edit
 8. Once the edits are done, click on Apply & Preview Deployment
 9. Once done, you can Validate the deployment to make sure everything is good.
-10. Onc validation is successful, click on deploy\
+10. Once validation is successful, click on deploy
+
 Verify the changes in the Salesforce and ensure Change Log correctly captures the changes.
