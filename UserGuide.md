@@ -24,6 +24,8 @@ Next, connect the workspace to Salesforce account, by running:
 salto service add salesforce
 ```
 This command will prompt to enter the credentials fr the acount. Add the credentials.
+# Using Salto with Git
+Once the Salto workspace is initialized, run git init to create a new git repository. Then run `git add .` to add all the currently fetched files and `git commit` to record the baseline of your workspace to the repository.
 # Implement Development Project in Salesforce
 ## Create Leads Queue
 1. Go to Setup by clicking on the gear icon in the top-right corner and select Setup
