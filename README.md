@@ -1,1 +1,1 @@
-# Salto-exercise
+# Go to master branch
