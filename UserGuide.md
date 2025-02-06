@@ -24,17 +24,17 @@ Next, connect the workspace to Salesforce account, by running:
 salto service add salesforce
 ```
 This command will prompt to enter the credentials fr the acount. Add the credentials.
-# Implement Development Project in 
+# Implement Development Project in Salesforce
 ## Create Leads Queue
 1. Go to Setup by clicking on the gear icon in the top-right corner and select Setup
 2. In the Quick Find box, type Queues and select Queues under the Users section
 3. Click 
-### Create Hot Leads Queue
+### a. Create Hot Leads Queue
 1. Enter Queue Name: Hot Leads. Unique Name would be filed in automatically
 2. Select Lead from Available Objects
 3. In the Queue Members add the user who should have access. In this case Manisha
 4. CLick Save
-### Create Cold Leads Queue
+### b. Create Cold Leads Queue
 1. Enter Queue Name: Cold Leads. Unique Name would be filed in automatically
 2. Select Lead from Available Objects
 3. In the Queue Members add the user who should have access. In this case Manisha
@@ -42,7 +42,7 @@ This command will prompt to enter the credentials fr the acount. Add the credent
 ## Create Lead Assignment Rules
 1. In Setup, search for Navigate to Lead Assignment Rules
 2. Click New and name it Assign Leads
-### Assignment Rule for Hot Lead
+### a. Assignment Rule for Hot Lead
 1. Click New in Rule Entries
 2. In Step 1, Add Sort Order as 1
 3. In Step 2, Select the Field as "Lead: Score"
@@ -50,7 +50,7 @@ This command will prompt to enter the credentials fr the acount. Add the credent
 5. Add the value as 60
 6. In Step 3, Select the Queue as Hot Leads
 7. Click Save
-### Assignment Rule for Cold Lead
+### b. Assignment Rule for Cold Lead
 1. Click New in Rule Entries
 2. In Step 1, Add Sort Order as 2
 3. In Step 2, Select the Field as "Lead: Score"
