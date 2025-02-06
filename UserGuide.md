@@ -78,7 +78,12 @@ This step can also be done with Visual Code Editor (which has Salto app in-built
 1. Once logged into Salto web ui, click on the environment on left side of the screen.
 Note: You can Explore all the NaCl files for salesforce over here.
 2. Go To Compare & Deploy
-3. Click on the drop-dowm in front of Compare & Deploy
+3. Click on the drop-down in front of Compare & Deploy
 4. Click on Edit and environment
 5. Select the correct environment to Edit.
 6. Add Title for example Editing 'env1'
+7. Choose a NaCl file you want to edit
+8. Once the edits are done, click on Apply & Preview Deployment
+9. Once done, you can Validate the deployment to make sure everything is good.
+10. Onc validation is successful, click on deploy\
+Verify the changes in the Salesforce and ensure Change Log correctly captures the changes.
