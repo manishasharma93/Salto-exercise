@@ -1,7 +1,0 @@
-salesforce.ProductDiscoverySettings {
-  fullName = "ProductDiscovery"
-  prodDiscBrowseContextDefOrgValue = "ProductDiscoveryContext__stdctx"
-  prodDiscPricingEnabledOrgValue = "false"
-  prodDiscQualEnabledOrgValue = "false"
-  _alias = "ProductDiscovery"
-}
