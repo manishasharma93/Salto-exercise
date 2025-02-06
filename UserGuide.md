@@ -60,31 +60,3 @@ Once the Salto workspace is initialized, run git init to create a new git reposi
 5. Add the value as 60
 6. In Step 3, Select the Queue as Cold Leads
 7. Click Save
-# Testing the Development
-1. Go to [Salesforce home](https://manishainc-dev-ed.develop.lightning.force.com/lightning/page/home)
-2. Click on Leads
-3. Click on New
-4. Add the Lead Information - First Name, Last Name, Company, etc.
-5. Add the Lead Score from 1 - 100.
-6. Click Save\
-If the lead score you input is less than 60, you should see the Owner Alias as Cold Leads. If the lead score you you input is equal or greater than 60, you should see the Owner Alias as Hot Leads.
-# Connecting your Salto Web UI to salesforce
-1. Go to app.salto.io
-2. Sign in with Gmail account
-3. You wil be prompted to connect the Salesforce app to your Salto environment
-4. Create a salto environment and connect the Salesforce as prompted
-# Changing NaCL files to update Salesforce config
-This step can also be done with Visual Code Editor (which has Salto app in-built). Here we will use Salto Web Interface.
-1. Once logged into Salto web ui, click on the environment on left side of the screen.
-Note: You can Explore all the NaCl files for salesforce over here.
-2. Go To Compare & Deploy
-3. Click on the drop-down in front of Compare & Deploy
-4. Click on Edit and environment
-5. Select the correct environment to Edit.
-6. Add Title for example Editing 'env1'
-7. Choose a NaCl file you want to edit
-8. Once the edits are done, click on Apply & Preview Deployment
-9. Once done, you can Validate the deployment to make sure everything is good.
-10. Once validation is successful, click on deploy
-
-Verify the changes in the Salesforce and ensure Change Log correctly captures the changes.
