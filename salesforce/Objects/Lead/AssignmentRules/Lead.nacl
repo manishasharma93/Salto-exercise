@@ -11,7 +11,7 @@ salesforce.AssignmentRules Lead {
             {
               field = salesforce.Lead.field.Score__c
               operation = "greaterOrEqual"
-              value = "60"
+              value = "40"
             },
           ]
         },
@@ -22,7 +22,7 @@ salesforce.AssignmentRules Lead {
             {
               field = salesforce.Lead.field.Score__c
               operation = "lessThan"
-              value = "60"
+              value = "40"
             },
           ]
         },
